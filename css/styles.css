@@ -1,0 +1,318 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONTS SETUP
+*******************/
+
+body{
+	font-family: 'Source Sans Pro'
+}
+
+h1,
+.because p,
+.teasers h2{
+	font-family: "merriwearther", serif;
+}
+
+.cta,
+nav li:nth-child(-n+2) a{
+	font-family: "Oswald";
+	text-transform:uppercase;
+}
+
+/*******************
+  GENERAL
+*******************/
+
+html{
+	font-size: 22px;
+}
+
+a{
+	text-decoration: none;	
+}
+
+.cta {
+	padding: 10px;
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	border-bottom: 3px solid #CEC441;
+}
+
+.cta-grey {
+	background-color:#C6C6C6;
+	border-bottom: 3px solid #999999;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*******************************************************************
+ INDEX
+*******************************************************************/
+/*******************
+  HEADER
+*******************/
+
+header{
+	background-color: #000;
+	padding:20px 0;
+	border-bottom: 5px solid #FFF653;
+}
+
+
+.startup{
+	color: #FFF653;
+	margin: 0;
+	font-size: 36px;
+	float: left;
+	letter-spacing: 1px;
+}
+
+nav{
+	float: right;
+	margin:14px;
+}
+
+nav ul{
+	margin:0;
+}
+
+nav li{
+	display: inline-block;
+	margin:10px;
+}
+
+nav a {
+	color: #FFF;
+}
+
+a:hover{
+  background-color: #606161;
+}
+li a:hover{
+  background-color: #606161;
+}
+
+.selected{
+	background-color: #606161;
+}
+
+/*******************
+  BECAUSE
+*******************/
+
+.because{
+	background-color: #C6C6C6;
+	padding:20px 0;
+	text-align: center;
+	border-top: 1px solid #CEC441;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 1;
+}
+
+.because p{
+	margin: 0;
+	font-size:28px;
+	font-style: italic;
+}
+
+del{
+	color:#999;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid #FFF653;
+}
+
+/*******************
+  HEROIMAGE
+*******************/
+
+.heroimage{
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0;
+}
+
+.hero-content{
+	background-color: rgba(255, 255, 255, 0.7);
+	width:350px;
+	margin-left:auto;
+	padding: 20px 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.hero-content h2{
+	margin: 10px 0;
+}
+
+.hero-content p{
+	margin: 0 0 20px;
+	line-height: 1.5;
+	
+}
+
+/*******************
+  TEASERS
+*******************/
+
+.teasers {
+	padding: 20px 0;
+}
+
+.teasers ul{
+	padding:0;
+	margin:0;
+}
+
+.teasers-block {
+	float: left;
+	width: 33.33333333333333333333333%;
+	padding: 20px;
+	border-right: 1px solid #C6C6C6;
+}
+
+.teasers-block:last-child {
+	border-right: none;
+}
+
+.teasers-block h2{
+	margin: 10px 0;
+	line-height: 1.3;
+}
+
+.teasers-block p{
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+/*******************
+  FOOTER
+*******************/
+
+footer{
+	padding: 20px 20px 20px 40px;
+	background-color: #000;
+	color: #FFF;
+}
+
+/*******************************************************************
+ FIND DEVELOPER
+*******************************************************************/
+
+.find_developers{
+	background-color: #C6C6C6;
+	padding:10px 0;
+	margin:0;
+}
+
+.container ul{
+	padding:10px 0;
+	margin:0;
+}
+
+/*.container li{
+	padding:10px;
+	margin:10px;
+}
+*/
+.container h2{
+	margin:0;
+	line-height: 1;
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+.person_block {
+	float: left;
+	width: 300px;
+	background-color:white;
+	padding:10px;
+	margin:10px;
+}
+
+.image{
+	background-color: #C6C6C6;
+	width:280px;
+	height: 280px;
+}
+
+.person_block p{
+	position: absolute;
+	color:#AAAAAA;
+	padding:100px;	 
+}
+
+.label li{
+	display: inline-block;
+	padding: 3px 15px;
+	text-align: left;
+	font-size: 14px;
+	border-radius: 13px;
+	color: white;
+	background-color:#666666;
+	margin: 0 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
